@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8>
+<style>
+
+.container {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 170px;
+  font-family: Copperplate, Fantasy;
+  color: #982121;
+  display: inline-block;
+  white-space: nowrap;
+  width: 1500px;
+}
+
+input[type=submit] {
+  position: absolute;
+  top: 800px;
+  left: 1400px;
+  z-index: 11;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  width: 270px;
+  height: 80px;
+  border: 4px solid #982121;
+  border-radius: 12px 0px 12px 0px;
+  font-family: Garamond, Serif;
+}
+
+input[type=submit]:hover {
+  background-color: #982121;
+  color: white;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.text_container {
+z-index: 11;
+position: absolute;
+top: 200px;
+left: 60px;
+color: #982121;
+font-family: Georgia, Serif;
+font-size: 45px;
+border: 3px solid black;
+border-radius: 10px;
+padding: 10px 10px;
+background-color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <img src="h1.jpg" width="1895"></img>
+  <div class="centered">CSABI GARAGE<br>
+  </div>
+</div>
+
+<form action="cs_fooldal.html">
+<input type="submit" value="Vissza a főoldalra">
+</form>
+
+<div class="text_container">
+
+Programálását hamarosan elbíráljuk, emailben vagy telefonon követítsük a válaszunkat.
+
+</div>
+
+</body>
+
+</html>
